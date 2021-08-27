@@ -8,5 +8,9 @@ namespace SocialMediaAPI.Models
 {
     public class LikeListItemModel
     {
+        public int Id { get; set; }
+        public int PostId { get; set; }
+
+        public int NumberOfLikesOnPost { get; set; }
     }
 }
