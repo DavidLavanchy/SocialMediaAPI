@@ -12,6 +12,7 @@ namespace SocialMediaAPI.Data
     {
         [Key]
         public int Id { get; set; }
+        [Required]
         [ForeignKey(nameof(Post))]
         public int PostId { get; set; }
         public virtual Post Post { get; set; }

@@ -70,5 +70,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SocialMediaAPI.Data\SocialMediaAPI.Data.csproj">
+      <Project>{430D6CB4-01AF-4A34-ACB3-6936136F25F4}</Project>
+      <Name>SocialMediaAPI.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
