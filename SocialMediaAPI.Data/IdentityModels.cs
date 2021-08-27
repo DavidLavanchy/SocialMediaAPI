@@ -36,9 +36,9 @@ namespace SocialMedia.Data
         }
 
         public DbSet<Post> Posts { set; get; }
-        public DbSet<Comment> Comments { get; set; }
-        public DbSet<Reply> Replies { get; set; }
-        public DbSet<Like> Likes { get; set; }
+        public DbSet<Comments> Comments { get; set; }
+        //public DbSet<Reply> Replies { get; set; }
+        //public DbSet<Like> Likes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
